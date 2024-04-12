@@ -1,0 +1,140 @@
+.body {
+    background-color: #3d3d3d;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #313131;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: -20px;
+    /* Margen inferior negativo */
+}
+
+
+
+
+.carousel-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-slide {
+    width: 80%;
+}
+
+.Logo {
+    align-items: left;
+    color: aliceblue;
+}
+
+.BotonesC {
+    align-items: right;
+}
+
+.Bienvenida {
+    color: #fff;
+    border: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 700px;
+    padding: 70px;
+
+    text-align: center;
+    font-size: 1.5em;
+    margin-block-start: 0;
+    margin-block-end: 5em;
+
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#login-form {
+    max-width: 400px;
+    margin: 100px auto 0;
+    padding: 80px;
+    background-color: #242424;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+
+#login-form h2 {
+    text-align: center;
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #525252;
+    border-radius: 5px;
+}
+
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #343434;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #404040;
+}
+
+.login {
+    color: #fff;
+}
+
+.contacto {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    justify-self: center;
+}
+
+.card {
+    border: none;
+
+    background: #55535380;
+}
+
+.imagen {
+    height: 100vh;
+}
+
+.consolas {
+    width: 20vw !important;
+    margin: auto;
+}
+
+.carrusel {
+    height: 50vh;
+    align-content: center;
+}
